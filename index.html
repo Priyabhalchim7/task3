@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <title>Task3</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>STUDENT_REGISTRATION</h1>
+    </div>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="StudentName">StudentName</label>
+                        <input type="text" name="StudentName" id="StudentName">
+                    </div>
+                    <div>
+                        <label for="Branch">Branch</label>
+                        <input type="text" name="Branch" id="Branch">
+                    </div>
+                    <div>
+                        <label for="Class">Class</label>
+                        <input type="number" name="Class" id="Class">
+                    </div>
+                    <div>
+                        <label for="MobileNo">MobileNo</label>
+                        <input type="number" name="MobileNo" id="MobileNo">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>StudentName</th>
+                                <th>Branch</th>
+                                <th>Class</th>
+                                <th>MobileNo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
